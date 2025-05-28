@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+<!-- Icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">      
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#services" style="--i:3;">Services</a>
+            <a href="#projects" style="--i:4;">Projects</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Hello, I'm</h3>
+            <h1>Tisha Mistry</h1>
+            <h3>And I'm an AI <span class="multiple-text"></span></h3>
+            <p>Strive to develop websites that are fully responsive and accessible, ensuring they work flawlessly across all devices and are usable by people with diverse abilities.
+            </p>
+            <div class="socials">
+                <a href="https://www.instagram.com/coding_sha/" style="--i:7;" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" style="--i:8;" target="_blank"><i class='bx bxl-telegram' ></i></a>
+                <a href="https://github.com/mistrytisha/" style="--i:9;" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/tisha-mistry-47ba86309" style="--i:10;" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="MYCV.pdf" class="btn" target="_blank">Download CV</a>
+        </div>
+
+        <div class="home-image">
+            <img src="images/web-port.png" alt="">
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="images/about-img.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            
+            <p>I'm Tisha Mistry, a passionate Frontend Developer who has just completed a 3-year Diploma in Information Technology. During my studies, I discovered my interest in web development and began building landing pages and participating in hackathons. These experiences helped me sharpen my skills and gain practical knowledge. I'm always eager to learn new technologies and enjoy designing clean, user-friendly interfaces that bring ideas to life on the web. </p>
+            <a href="readmoreabout.html" class="btn" target="_blank">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services section -->
+     <section class="services" id="services">                                                       
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I specialize in creating responsive, user-friendly websites using HTML, CSS, and JavaScript. I have a keen eye for design and functionality, ensuring that every website I build is both visually appealing and technically sound. Always eager to learn and adapt to new tools and frameworks.
+                <br> 🔧 Skills: HTML, CSS, JavaScript, Responsive Design</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>I bring bold ideas and fresh perspectives to every design. Proficient in Canva and AI tools, I create engaging social media posts, banners, and visuals that communicate your message effectively. I’m committed to learning and refining my visual storytelling.
+                <br> 🎨 Skills: Canva, Color Theory, Typography, Branding</p>
+                <a href="https://www.canva.com/folder/FAFooTHCFMQ" target="_blank" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-palette'></i>
+                <h3>AI/ML Architect</h3>
+                <p>Exploring Intelligent Solutions with Lightweight Models
+                    With hands-on experience in working with LLaMA fine-tuning, I focus on building fast, efficient, and domain-specific machine learning models. I’m passionate about applying AI in real-world scenarios.
+                    <br> 🧠 Skills: Python, Hugging Face Transformers, NLP</p>
+                <a href="https://colab.research.google.com/drive/1baI4QquByeK5b4n4Is34w8NJduZCjt0v?usp=sharing" target="_blank" class="btn">Read More</a>
+            </div>
+        </div>
+     </section>
+
+     <!-- Projects or portfolio section -->
+
+     <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="/images/tictactoe-img.svg" alt="">
+                <div class="project-layer">
+                    <h4 style="color: black;">Tic Tac Toe</h4>
+                    <p style="color: black;">I have created Tic tac toe Game using Javascript </p>
+                    <a href="https://mistrytisha.github.io/Tic-Tac-toe-Game/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="/images/landing-img.svg" alt="">
+                <div class="project-layer">
+                    <h4 style="color: black;">Landing Page</h4>
+                    <p style="color: black;">Created Landing page using HTML5 and CSS3 </p>
+                    <a href="https://mistrytisha.github.io/landingpage/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="/images/portfolio-img.svg" alt="">
+                <div class="project-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>Created Responsive Portfolio Website, showcasing my Skills and Acheivements.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="project-layer">
+                    <h4>Coming Soon</h4>
+                    <p>Event Listing App using Flutter</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="project-layer">
+                    <h4>Coming Soon</h4>
+                    <p>AI Powered Study-Buddy</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="project-layer">
+                    <h4>Coming Soon</h4>
+                    <p>Coming Soon</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+            <input type="submit" name="" id="" value="Send Message" class="btn">
+        </form>
+      </section>
+
+      <!-- Footer  -->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Tisha | All rights reserved.</p>
+        </div>
+        <div class="footer-iconup">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+      </footer>
+
+      <!-- Scroll reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!-- Typed js -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+      <script src="script.js"></script>
+</body>
+</html>
