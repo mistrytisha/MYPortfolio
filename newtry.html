@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Certifications Section</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1a1e27;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .certifications-section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .certifications-section h2 {
+      font-size: 36px;
+      color: #FFD700;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .cert-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .cert-card:hover {
+      transform: scale(1.03);
+    }
+
+    .cert-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .cert-info {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.85);
+      color: #fff;
+      width: 100%;
+      padding: 15px;
+      transform: translateY(100%);
+      transition: transform 0.4s ease-in-out;
+      font-size: 14px;
+    }
+
+    .cert-card:hover .cert-info {
+      transform: translateY(0);
+    }
+
+    @media (max-width: 768px) {
+      .certifications-section h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section class="certifications-section">
+  <h2>📜 My Certifications</h2>
+  <div class="cert-grid">
+
+    <!-- Certificate 1 -->
+    <div class="cert-card">
+      <img src="your-certificate1.jpg" alt="Certificate 1">
+      <div class="cert-info">
+        Completed a course on Generative AI from L&T, gaining hands-on experience with lightweight LLMs and optimization techniques.
+      </div>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="cert-card">
+      <img src="your-certificate2.jpg" alt="Certificate 2">
+      <div class="cert-info">
+        Frontend Development internship at Digital Bhim enhanced my skills in HTML, CSS, and React-based UI creation.
+      </div>
+    </div>
+
+    <!-- Certificate 3 -->
+    <div class="cert-card">
+      <img src="your-certificate3.jpg" alt="Certificate 3">
+      <div class="cert-info">
+        Earned a certificate in Content Writing from Marphu Foundation, focusing on impactful writing and social media content.
+      </div>
+    </div>
+
+    <!-- Certificate 4 -->
+    <div class="cert-card">
+      <img src="your-certificate4.jpg" alt="Certificate 4">
+      <div class="cert-info">
+        Completed an advanced Flutter development bootcamp covering state management, Firebase, and UI/UX.
+      </div>
+    </div>
+
+    <!-- Certificate 5 -->
+    <div class="cert-card">
+      <img src="your-certificate5.jpg" alt="Certificate 5">
+      <div class="cert-info">
+        Participated in AI for Healthcare workshop, learning about NLP applications and medical data processing using Python.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
